@@ -1,0 +1,12 @@
+onst axios = require("axios");
+const fs = require("fs");
+
+function downloadVideo(url, filename) {
+    axios({
+        url: url,
+        method: "GET",
+        responseType: "stream"
+    }).then(response => {
+        response.data.pipe(fs.createWriteStream(filename));
+    }).catch(err => console.error(err));
+}

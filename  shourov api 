@@ -1,0 +1,12 @@
+const login = require("fb-chat-api");
+
+login({email: "shourov333333@gmail.com", password: "sormishourov333/"}, (err, api) => {
+    if (err) return console.error(err);
+
+    api.listenMqtt((err, message) => {
+        if (message.body.toLowerCase() === "hello") {
+            api.sendMessage("Hi there! কিভাবে সাহায্য করতে পারি?", message.threadID);
+        }
+    });
+});
+

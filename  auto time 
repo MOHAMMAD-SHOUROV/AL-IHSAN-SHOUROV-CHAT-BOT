@@ -1,0 +1,4 @@
+setInterval(() => {
+    const time = new Date().toLocaleTimeString();
+    api.sendMessage(`এখন সময়: ${time}`, "your-group-id");
+}, 3600000); // প্রতি ১ ঘণ্টা
