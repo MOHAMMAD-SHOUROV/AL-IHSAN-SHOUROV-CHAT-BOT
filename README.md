@@ -1,7 +1,7 @@
 # ALIHSAN-SHOUROV
 # 👋 Hi, I'm Mohammad SHOUROV!
 - 🌱 I’m currently learning JavaScript & Python.
-- 💻 My Projects: [Shourov-Bot](https://github.com/mohammadshourov24/AL-IHSAN-SHOUROV-CHAT-BOT),
+- 💻 My Projects: [AL-IHSAN-SHOUROV-CHAT-BOT](https://github.com/mohammadshourov24/AL-IHSAN-SHOUROV-CHAT-BOT),
 - 📫 Reach me: shourovislam5430@gmail.com
 # AL-IHSAN-SHOUROV-CHAT-BOT 
 A powerful bot developed with JavaScript.
