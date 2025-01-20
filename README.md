@@ -17,3 +17,4 @@ git clone https://github.com/mohammadshourov24/AL-IHSAN-SHOUROV-CHAT-BOT
 cd AL-IHSAN-SHOUROV-CHAT-BOT
 npm install
 npm start
+![Shourov GitHub stats](https://github-readme-stats.vercel.app/api?username=Mohamma-dShourov&show_icons=true&theme=radical)
